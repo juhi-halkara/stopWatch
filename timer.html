@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>timer</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link rel="stylesheet" type="text/css" href="timer.css">
+</head>
+<body>
+	<div class="row">
+			<div class="col-sm-12">
+			<div class="navbar navbar-expand-sm bg-dark justify-content-end">
+				<button id="start"  class="btn btn-success "> <i class="fa fa-user-plus" aria-hidden="true"></i><a href="signup.html" class="text-white">   SignUp</a></button>`
+				<button id="start"  class="btn btn-primary text-white"><i class="fa fa-sign-in" aria-hidden="true"></i><a href="login.php"  class="text-white">  Log In</a> </button>`
+			<button id="start"  class="btn btn-danger text-white"> <i class="fa fa-power-off" aria-hidden="true"></i><a href="logout.php"  class="text-white">   LogOut</a></button>`
+		</div>	
+		</div>
+	</div>
+	<div class="container">
+		<center><h1 class="my-5">Stop Watch Display</h1></center>
+
+		<div class="row my-5" >
+			<div class="col-sm-5">
+				
+				<div class="dd">
+					<h4>Today's Date</h4>
+					<span  id="date"></span>
+			    </div>
+			    <h4 class="time">Time Duration</h4>
+			    <div id="disp" class="ddd">
+			    	
+			    	    00:00:00.
+			    </div>
+			</div>
+			<div class="col-sm-4">
+		<div id="display">
+			00:00:00
+		</div>
+		<div class="buttons">
+			<button id="start" onclick="start()" class="btn btn-success"> <i class="fa fa-caret-square-o-right mx-2" aria-hidden="true"></i>Start</button>
+			<button id="stop" onclick="stop()" class="btn btn-warning text-white"><i class="fa fa-pause-circle text-white mx-2" aria-hidden="true"></i>Stop</button>
+			<button id="reset" onclick="reset()" class="btn btn-danger"><i class="fa fa-refresh mx-2" aria-hidden="true"></i>Reset
+			</button>
+		</div>
+		</div>
+	</div>
+
+</div>
+	<script src = "timer.js"></script>
+	<script type="text/javascript">
+	
+	
+
+
+</script>
+
+</body>
+</html>

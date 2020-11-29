@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container  ">
+  <div class="card w-50 m-auto ">
+    <div class="card-body ">
+      
+  
+  <h2>Registration form</h2>
+  <form name='registration' action="signup.php" id="form_id" method="post">
+    
+    <div class="form-group">
+      <label class="">Username</label>
+    <input type="text" class="form-control"  placeholder="Enter Your Name" name="username"
+     id="username" autocomplete="off">
+    <h5 class="text-danger" id="usernameCheck"></h5>
+    </div>
+    <div class="form-group">
+       <label for="pass">Password:</label>
+    <input type="password" class="form-control"  placeholder="Enter  your password" name="pswd" 
+       id="password">
+      <h5 class="text-danger" id="passwordCheck"></h5>
+    </div>
+    <div class="form-group">
+         <label for="usr">Confirm-password:</label>
+      <input type="password" class="form-control"  placeholder="Renter your password"
+       name="cpswd" id="confirm" >
+       <h5 class="text-danger" id="confirmcheck"></h5>
+    </div>
+    <div class="form-group">
+       <label for="usr">Adrress:</label>
+      <input type="text" class="form-control" placeholder="Enter your Address" name="address" 
+      id="address" >
+      <h5 class="text-danger" id="addressCheck"></h5>
+    </div>
+    
+    <div class="form-check">
+
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input"  name="optradio" value="male">Male
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optradio" value="female" >Female
+      </label> 
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary" name="submit" id="submit" value="submit">Submit</button>
+  </form>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

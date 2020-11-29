@@ -1,0 +1,31 @@
+
+.container{
+	height: 300px;
+	width: 100%;
+	margin-left: 100px;	
+
+}
+#display{
+
+	font-size: 50px;
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+.buttons{
+	text-align: center;
+}
+.dd{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 10px;
+	padding-top: 20px;	
+}
+.ddd{
+	font-size: 20px;
+	text-align: center;
+	margin-left: 10px;	
+}
+.time{
+	margin-left: 30%;
+}
